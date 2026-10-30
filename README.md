@@ -36,6 +36,21 @@ Se simulará la llegada de nuevos viajes mediante Kafka, utilizando un topic lla
 ## Resultados
 
 En esta sección se documentarán los resultados obtenidos después de ejecutar los programas.
+# Evidencias del proyecto
+
+En esta sección se encuentran los recursos audiovisuales y la presentación correspondientes al proyecto **Análisis de datos de movilidad urbana mediante Apache Spark y Kafka**.
+
+## 1. Video de la exposición
+
+[Ver video de la presentación en YouTube](https://youtu.be/D40oex45VpI)
+
+## 2. Presentación del proyecto
+
+[Consultar presentación en Canva](https://canva.link/2pjl02ws261wxz2)
+
+## 3. Evidencias de ejecución
+
+En esta sección se agregarán capturas de pantalla que demuestren la ejecución del procesamiento Batch con PySpark y el procesamiento en tiempo real con Kafka.
 
 ## Autora
 
