@@ -37,6 +37,54 @@ Se simulará la llegada de nuevos viajes mediante Kafka, utilizando un topic lla
 
 En esta sección se documentarán los resultados obtenidos después de ejecutar los programas.
 
+# Datos del proyecto
+
+En esta carpeta se documentará el conjunto de datos utilizado para el análisis de movilidad urbana.
+
+Fuente: NYC Taxi and Limousine Commission (TLC).
+
+Archivo: yellow_tripdata_2025-01.parquet
+Formato: Parquet.
+# Resultados del análisis de movilidad urbana
+
+En esta carpeta se almacenarán los resultados obtenidos durante la ejecución del proyecto de análisis de datos mediante Apache Spark y Kafka.
+
+## Resultados del procesamiento Batch
+
+- Cantidad de registros originales.
+- Cantidad de registros válidos.
+- Cantidad de registros descartados.
+- Distancia promedio de los viajes.
+- Tarifa promedio.
+- Hora con mayor cantidad de viajes.
+
+## Resultados del procesamiento en tiempo real
+
+- Cantidad de eventos recibidos.
+- Cantidad de eventos procesados.
+- Estadísticas de los viajes simulados.
+
+## Gráficas
+
+Se incluirán las gráficas generadas durante el análisis de los datos históricos.
+
+# Evidencias del proyecto
+
+En esta sección se encuentran los recursos audiovisuales y la presentación correspondientes al proyecto **Análisis de datos de movilidad urbana mediante Apache Spark y Kafka**.
+
+## 1. Video de la exposición
+
+[Ver video de la presentación en YouTube](https://youtu.be/D40oex45VpI)
+
+## 2. Presentación del proyecto
+
+[Consultar presentación en Canva](https://canva.link/2pjl02ws261wxz2)
+
+## 3. Evidencias de ejecución
+
+En esta sección se agregarán capturas de pantalla que demuestren la ejecución del procesamiento Batch con PySpark y el procesamiento en tiempo real con Kafka.
+
+
 ## Autora
 
 Leidy Paola Bueno Triana
