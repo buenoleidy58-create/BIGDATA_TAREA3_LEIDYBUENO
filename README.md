@@ -39,7 +39,43 @@ En esta sección se documentarán los resultados obtenidos después de ejecutar 
 # Evidencias del proyecto
 
 En esta sección se encuentran los recursos audiovisuales y la presentación correspondientes al proyecto **Análisis de datos de movilidad urbana mediante Apache Spark y Kafka**.
+# Resultados del análisis de movilidad urbana
 
+En esta sección se presentan los resultados obtenidos mediante el procesamiento de datos con Apache Spark y Kafka.
+
+## 1. Resultados del procesamiento Batch
+
+El procesamiento Batch permite analizar los registros históricos de viajes en taxi de Nueva York mediante PySpark.
+
+Se evaluarán los siguientes indicadores:
+
+- Número total de registros originales.
+- Número de registros válidos después de la limpieza.
+- Cantidad de registros descartados.
+- Distancia promedio de los viajes.
+- Tarifa promedio.
+- Hora con mayor cantidad de viajes.
+
+## 2. Resultados del procesamiento en tiempo real
+
+Mediante Apache Kafka y Spark Structured Streaming se procesarán eventos simulados de nuevos viajes.
+
+Se analizarán:
+
+- Cantidad de eventos recibidos.
+- Cantidad de eventos procesados correctamente.
+- Eventos descartados por contener datos inválidos.
+- Estadísticas de los viajes recibidos en las ventanas de tiempo.
+
+## 3. Tablas y gráficas
+
+Se incluirán las tablas y representaciones gráficas generadas durante el análisis, con el propósito de facilitar la interpretación de los patrones de movilidad urbana.
+
+## 4. Análisis de resultados
+
+Los resultados permitirán identificar comportamientos relacionados con la frecuencia de los viajes, las distancias recorridas y las tarifas, tanto en los registros históricos como en los eventos simulados.
+
+**Nota:** Los valores numéricos y las gráficas se incorporarán después de ejecutar y verificar los programas.
 ## 1. Video de la exposición
 
 [Ver video de la presentación en YouTube](https://youtu.be/D40oex45VpI)
