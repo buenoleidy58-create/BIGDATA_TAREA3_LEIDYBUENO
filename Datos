@@ -1,9 +1,0 @@
-datos/README.md
-# Datos del proyecto
-
-En esta carpeta se documentará el conjunto de datos utilizado para el análisis de movilidad urbana.
-
-Fuente: NYC Taxi and Limousine Commission (TLC).
-
-Archivo: yellow_tripdata_2025-01.parquet
-Formato: Parquet.
